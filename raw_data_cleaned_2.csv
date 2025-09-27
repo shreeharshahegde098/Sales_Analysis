@@ -1,0 +1,895 @@
+OrderID,OrderDate,CustomerID,"Customer
+Name",Region,Product,Category,Quantity,UnitPrice,Discount,Revenue 
+1001,16-09-2023,C103,Customer_168,South,Tablet,electronics,10,300,0.05,2850
+1002,03-09-2023,C180,Customer_113,East,Printer,electronics,10,200,0,2000
+1003,16-05-2023,C093,Customer_83,South,Laptop,electronics,4,700,0.15,2380
+1004,07-10-2023,C015,Customer_42,South,Desk Lamp,Furniture,8,35,0.15,238
+1005,28-09-2023,C107,Customer_169,East,Printer,electronics,6,200,0,1200
+1006,20-06-2023,C072,Customer_101,South,Bookshelf,Furniture,4,150,0.15,510
+1007,08-06-2023,C189,Customer_6,South,Bookshelf,Furniture,4,150,0.15,510
+1008,20-07-2023,C021,Customer_180,South,Notebook,Stationery,2,5,0,10
+1009,14-02-2023,C103,Customer_26,South,Desk Lamp,Furniture,2,35,0,70
+1011,12-03-2023,C075,Customer_187,South,Tablet,electronics,5,300,0.05,1425
+1012,30-12-2023,C088,Customer_184,South,Bookshelf,Furniture,8,150,0.05,1140
+1013,13-04-2023,C117,Customer_59,East,Tablet,electronics,6,300,0,1800
+1014,05-05-2023,C100,Customer_109,West,Bookshelf,Furniture,4,150,0,600
+1015,09-11-2023,C104,Customer_198,North,Laptop,electronics,7,700,0.15,4165
+1016,13-10-2023,C152,Customer_121,West,Printer,electronics,8,200,0.1,1440
+1017,18-08-2023,C131,Customer_33,East,Headphones,electronics,2,50,0.1,90
+1018,26-05-2023,C150,Customer_181,North,Printer,electronics,7,200,0,1400
+1019,16-07-2023,C053,Customer_150,East,Bookshelf,Furniture,2,150,0.15,255
+1021,01-03-2023,C088,Customer_198,South,Headphones,electronics,8,50,0.05,380
+1022,08-04-2023,C158,Customer_70,North,Headphones,electronics,2,50,0.05,95
+1023,20-06-2023,C038,Customer_112,South,Tablet,electronics,9,300,0.15,2295
+1024,22-06-2023,C130,Customer_4,North,Desk Lamp,Furniture,1,35,0.05,33.25
+1025,31-05-2023,C192,Customer_94,East,Tablet,electronics,9,300,0,2700
+1026,16-12-2023,C188,Customer_75,East,Tablet,electronics,1,300,0.15,255
+1027,02-05-2023,C021,Customer_190,West,Pen Set,Stationery,10,2,0.05,19
+1028,18-04-2023,C161,Customer_62,North,Printer,electronics,10,200,0.1,1800
+1029,04-01-2023,C058,Customer_94,South,Printer,electronics,2,200,0.15,340
+1030,03-04-2023,C022,Customer_95,West,Office Chair,Furniture,6,120,0.15,612
+1031,06-01-2023,C089,Customer_152,West,Bookshelf,Furniture,6,150,0.1,810
+1032,15-10-2023,C049,Customer_55,West,Pen Set,Stationery,1,2,0,2
+1033,16-04-2023,C059,Customer_137,South,Office Chair,Furniture,7,120,0.1,756
+1034,26-05-2023,C170,Customer_131,West,Laptop,electronics,8,700,0,5600
+1035,28-09-2023,C188,Customer_31,South,Bookshelf,Furniture,2,150,0,300
+1036,06-04-2023,C015,Customer_40,West,Bookshelf,Furniture,8,150,0.05,1140
+1037,17-08-2023,C190,Customer_36,South,Notebook,Stationery,9,5,0.05,42.75
+1038,21-07-2023,C190,Customer_152,East,Notebook,Stationery,6,5,0.05,28.5
+1039,31-07-2023,C175,Customer_6,East,mobile_phone,electronics,5,400,0.15,1700
+1040,06-01-2023,C190,Customer_66,East,mobile_phone,electronics,9,400,0.1,3240
+1041,22-04-2023,C051,Customer_75,East,Tablet,electronics,9,300,0,2700
+1042,19-11-2023,C108,Customer_4,East,Laptop,electronics,1,700,0.05,665
+1043,16-04-2023,C055,Customer_79,West,Headphones,electronics,3,50,0,150
+1044,19-05-2023,C064,Customer_134,West,Headphones,electronics,9,50,0.15,382.5
+1045,26-10-2023,C131,Customer_118,West,Notebook,Stationery,2,5,0.05,9.5
+1047,03-12-2023,C135,Customer_94,South,Notebook,Stationery,4,5,0.1,18
+1048,24-10-2023,C021,Customer_179,South,Pen Set,Stationery,2,2,0.15,3.4
+1049,02-08-2023,C073,Customer_62,South,Desk Lamp,Furniture,3,35,0.15,89.25
+1050,18-10-2023,C167,Customer_185,East,mobile_phone,electronics,3,400,0.1,1080
+1051,22-01-2023,C018,Customer_194,East,Pen Set,Stationery,1,2,0,2
+1053,30-05-2023,C089,Customer_136,North,Headphones,electronics,8,50,0.1,360
+1054,04-09-2023,C060,Customer_26,West,Bookshelf,Furniture,3,150,0.15,382.5
+1055,24-09-2023,C014,Customer_179,South,mobile_phone,electronics,5,400,0,2000
+1056,08-09-2023,C009,Customer_173,South,Office Chair,Furniture,1,120,0.05,114
+1057,03-01-2023,C090,Customer_44,East,Printer,electronics,10,200,0.1,1800
+1058,12-11-2023,C053,Customer_133,South,mobile_phone,electronics,7,400,0,2800
+1059,17-03-2023,C130,Customer_70,South,Pen Set,Stationery,10,2,0.1,18
+1060,28-03-2023,C084,Customer_154,West,Laptop,electronics,1,700,0.1,630
+1061,27-09-2023,C092,Customer_118,East,Bookshelf,Furniture,9,150,0.1,1215
+1062,13-08-2023,C111,Customer_68,West,mobile_phone,electronics,8,400,0.1,2880
+1063,18-01-2023,C188,Customer_19,North,Desk Lamp,Furniture,7,35,0.15,208.25
+1064,23-04-2023,C199,Customer_20,North,Notebook,Stationery,10,5,0,50
+1065,08-09-2023,C172,Customer_113,North,Notebook,Stationery,7,5,0,35
+1066,21-08-2023,C008,Customer_140,East,Bookshelf,Furniture,5,150,0,750
+1067,25-11-2023,C175,Customer_47,South,Pen Set,Stationery,5,2,0.1,9
+1068,06-10-2023,C035,Customer_1,East,Notebook,Stationery,5,5,0.15,21.25
+1069,21-07-2023,C081,Customer_90,East,mobile_phone,electronics,1,400,0.1,360
+1070,24-03-2023,C164,Customer_142,South,Office Chair,Furniture,8,120,0.1,864
+1071,05-05-2023,C050,Customer_64,West,Headphones,electronics,1,50,0,50
+1072,24-06-2023,C104,Customer_38,North,Headphones,electronics,4,50,0,200
+1073,10-03-2023,C132,Customer_37,West,Printer,electronics,9,200,0.05,1710
+1074,16-02-2023,C002,Customer_126,North,Tablet,electronics,9,300,0.1,2430
+1075,13-09-2023,C134,Customer_139,East,Laptop,electronics,5,700,0.05,3325
+1076,03-08-2023,C054,Customer_100,North,Bookshelf,Furniture,4,150,0,600
+1077,30-01-2023,C106,Customer_77,East,Printer,electronics,3,200,0.15,510
+1078,08-10-2023,C004,Customer_3,West,Tablet,electronics,3,300,0.15,765
+1079,25-08-2023,C054,Customer_161,East,Pen Set,Stationery,5,2,0,10
+1080,05-09-2023,C191,Customer_134,West,Desk Lamp,Furniture,10,35,0.1,315
+1081,25-01-2023,C146,Customer_178,South,Desk Lamp,Furniture,1,35,0.05,33.25
+1082,15-03-2023,C044,Customer_10,South,Laptop,electronics,5,700,0.05,3325
+1084,10-11-2023,C190,Customer_151,East,mobile_phone,electronics,7,400,0.05,2660
+1085,04-04-2023,C014,Customer_138,South,Printer,electronics,9,200,0,1800
+1086,07-05-2023,C095,Customer_172,North,Printer,electronics,3,200,0.05,570
+1087,25-01-2023,C048,Customer_130,West,Bookshelf,Furniture,2,150,0,300
+1088,30-11-2023,C015,Customer_13,West,Bookshelf,Furniture,3,150,0.15,382.5
+1089,21-12-2023,C200,Customer_168,North,Desk Lamp,Furniture,9,35,0.15,267.75
+1090,26-04-2023,C190,Customer_130,East,Desk Lamp,Furniture,7,35,0.15,208.25
+1091,17-02-2023,C040,Customer_84,East,Office Chair,Furniture,9,120,0.1,972
+1092,14-08-2023,C082,Customer_65,West,Office Chair,Furniture,2,120,0.1,216
+1093,23-09-2023,C111,Customer_63,South,Notebook,Stationery,5,5,0.15,21.25
+1094,09-04-2023,C053,Customer_101,East,Office Chair,Furniture,4,120,0.1,432
+1095,11-01-2023,C024,Customer_73,East,mobile_phone,electronics,2,400,0.05,760
+1096,26-03-2023,C154,Customer_17,North,mobile_phone,electronics,9,400,0.1,3240
+1098,22-06-2023,C124,Customer_143,South,Headphones,electronics,6,50,0.15,255
+1099,28-07-2023,C041,Customer_152,East,mobile_phone,electronics,6,400,0,2400
+1100,05-03-2023,C157,Customer_38,East,Tablet,electronics,8,300,0,2400
+1101,15-09-2023,C015,Customer_163,North,Desk Lamp,Furniture,6,35,0,210
+1102,28-11-2023,C045,Customer_94,East,Bookshelf,Furniture,1,150,0.05,142.5
+1103,01-05-2023,C065,Customer_95,West,Office Chair,Furniture,4,120,0.1,432
+1104,25-10-2023,C089,Customer_49,North,Printer,electronics,7,200,0,1400
+1105,23-02-2023,C071,Customer_69,South,Laptop,electronics,2,700,0.15,1190
+1106,27-11-2023,C009,Customer_62,North,Bookshelf,Furniture,9,150,0,1350
+1107,29-09-2023,C088,Customer_188,East,Tablet,electronics,8,300,0,2400
+1108,29-08-2023,C129,Customer_178,South,Office Chair,Furniture,8,120,0.1,864
+1109,31-08-2023,C136,Customer_78,North,Tablet,electronics,7,300,0.1,1890
+1110,18-01-2023,C063,Customer_117,West,Desk Lamp,Furniture,4,35,0.1,126
+1111,06-07-2023,C139,Customer_120,West,Desk Lamp,Furniture,2,35,0.05,66.5
+1112,12-12-2023,C081,Customer_137,North,Notebook,Stationery,3,5,0.05,14.25
+1113,24-05-2023,C136,Customer_162,West,Printer,electronics,6,200,0,1200
+1114,19-09-2023,C163,Customer_76,West,Bookshelf,Furniture,5,150,0.1,675
+1115,30-12-2023,C163,Customer_35,West,Pen Set,Stationery,8,2,0,16
+1116,27-08-2023,C033,Customer_1,South,Pen Set,Stationery,6,2,0.15,10.2
+1117,31-10-2023,C123,Customer_40,West,Bookshelf,Furniture,6,150,0.15,765
+1118,25-10-2023,C005,Customer_64,West,Laptop,electronics,1,700,0.1,630
+1119,17-03-2023,C041,Customer_150,West,Printer,electronics,4,200,0.1,720
+1120,07-07-2023,C028,Customer_60,South,Tablet,electronics,5,300,0.15,1275
+1121,29-11-2023,C135,Customer_64,North,Laptop,electronics,3,700,0.1,1890
+1122,03-09-2023,C072,Customer_93,East,Headphones,electronics,9,50,0.05,427.5
+1123,10-05-2023,C012,Customer_72,West,Bookshelf,Furniture,1,150,0.05,142.5
+1126,20-03-2023,C048,Customer_14,South,mobile_phone,electronics,10,400,0,4000
+1127,13-03-2023,C151,Customer_60,North,Notebook,Stationery,5,5,0.1,22.5
+1128,20-09-2023,C062,Customer_30,South,Pen Set,Stationery,5,2,0.1,9
+1130,04-03-2023,C099,Customer_165,West,Desk Lamp,Furniture,5,35,0.1,157.5
+1131,12-01-2023,C172,Customer_5,South,mobile_phone,electronics,6,400,0,2400
+1132,21-05-2023,C104,Customer_83,East,Notebook,Stationery,8,5,0.15,34
+1133,11-09-2023,C035,Customer_123,South,Notebook,Stationery,2,5,0.05,9.5
+1134,12-02-2023,C193,Customer_78,West,Headphones,electronics,6,50,0.15,255
+1135,17-01-2023,C101,Customer_154,South,Headphones,electronics,1,50,0.05,47.5
+1136,04-03-2023,C175,Customer_62,East,Office Chair,Furniture,4,120,0,480
+1137,10-09-2023,C131,Customer_132,South,Pen Set,Stationery,10,2,0.05,19
+1138,19-10-2023,C001,Customer_89,East,Pen Set,Stationery,3,2,0.15,5.1
+1139,08-01-2023,C005,Customer_42,East,Pen Set,Stationery,9,2,0.05,17.1
+1140,21-11-2023,C142,Customer_89,South,Office Chair,Furniture,3,120,0,360
+1142,27-07-2023,C027,Customer_40,North,Notebook,Stationery,1,5,0.1,4.5
+1143,19-10-2023,C137,Customer_72,West,mobile_phone,electronics,6,400,0.15,2040
+1144,11-10-2023,C015,Customer_39,East,Printer,electronics,4,200,0.1,720
+1145,28-04-2023,C090,Customer_104,North,Notebook,Stationery,8,5,0,40
+1146,15-12-2023,C042,Customer_14,South,Headphones,electronics,9,50,0.05,427.5
+1148,17-03-2023,C179,Customer_179,North,Desk Lamp,Furniture,10,35,0.1,315
+1149,11-04-2023,C063,Customer_125,East,Office Chair,Furniture,10,120,0.05,1140
+1150,31-05-2023,C096,Customer_166,North,Bookshelf,Furniture,6,150,0.05,855
+1151,27-09-2023,C052,Customer_97,East,Tablet,electronics,1,300,0.15,255
+1152,12-03-2023,C096,Customer_23,South,Printer,electronics,4,200,0.1,720
+1153,29-06-2023,C132,Customer_63,West,Pen Set,Stationery,7,2,0.1,12.6
+1154,04-05-2023,C151,Customer_143,West,Headphones,electronics,1,50,0,50
+1155,20-10-2023,C143,Customer_153,West,Headphones,electronics,8,50,0.15,340
+1156,12-10-2023,C171,Customer_145,South,Headphones,electronics,10,50,0,500
+1157,14-07-2023,C029,Customer_194,East,Pen Set,Stationery,6,2,0.1,10.8
+1159,02-10-2023,C013,Customer_104,West,Office Chair,Furniture,10,120,0.1,1080
+1160,16-04-2023,C160,Customer_104,South,Tablet,electronics,9,300,0.1,2430
+1161,21-01-2023,C071,Customer_179,South,Pen Set,Stationery,2,2,0,4
+1162,05-03-2023,C187,Customer_39,South,Printer,electronics,5,200,0,1000
+1163,14-06-2023,C086,Customer_179,East,Office Chair,Furniture,6,120,0.05,684
+1164,27-01-2023,C028,Customer_198,North,Printer,electronics,7,200,0.05,1330
+1165,07-11-2023,C066,Customer_134,North,Office Chair,Furniture,5,120,0,600
+1166,12-10-2023,C170,Customer_67,South,Bookshelf,Furniture,9,150,0.1,1215
+1167,28-05-2023,C045,Customer_135,North,Desk Lamp,Furniture,1,35,0,35
+1168,08-10-2023,C062,Customer_179,North,Printer,electronics,7,200,0.15,1190
+1170,15-11-2023,C134,Customer_42,South,Office Chair,Furniture,7,120,0,840
+1171,13-06-2023,C028,Customer_192,West,Headphones,electronics,4,50,0,200
+1172,12-08-2023,C028,Customer_15,North,Notebook,Stationery,9,5,0.1,40.5
+1173,29-09-2023,C108,Customer_111,East,Headphones,electronics,5,50,0.15,212.5
+1174,26-05-2023,C044,Customer_157,South,Laptop,electronics,4,700,0.15,2380
+1175,22-12-2023,C084,Customer_33,West,Desk Lamp,Furniture,7,35,0.05,232.75
+1176,30-01-2023,C030,Customer_155,East,Desk Lamp,Furniture,4,35,0.05,133
+1179,03-02-2023,C128,Customer_38,South,Bookshelf,Furniture,8,150,0,1200
+1180,21-05-2023,C092,Customer_185,East,Printer,electronics,1,200,0,200
+1182,09-08-2023,C129,Customer_155,North,Desk Lamp,Furniture,9,35,0.05,299.25
+1184,22-01-2023,C027,Customer_33,North,Headphones,electronics,8,50,0.15,340
+1185,29-06-2023,C190,Customer_196,North,Bookshelf,Furniture,6,150,0.05,855
+1186,25-11-2023,C121,Customer_86,West,Bookshelf,Furniture,4,150,0.15,510
+1187,19-08-2023,C116,Customer_66,South,mobile_phone,electronics,8,400,0,3200
+1188,07-02-2023,C003,Customer_10,East,mobile_phone,electronics,3,400,0.1,1080
+1189,11-03-2023,C103,Customer_5,North,Tablet,electronics,9,300,0.1,2430
+1190,26-04-2023,C198,Customer_123,North,Tablet,electronics,2,300,0.1,540
+1191,27-08-2023,C200,Customer_74,East,Laptop,electronics,2,700,0.1,1260
+1192,01-12-2023,C155,Customer_97,North,Tablet,electronics,7,300,0.15,1785
+1193,28-05-2023,C137,Customer_118,West,Office Chair,Furniture,10,120,0.15,1020
+1195,15-10-2023,C165,Customer_141,West,Pen Set,Stationery,10,2,0,20
+1196,19-02-2023,C051,Customer_159,West,Office Chair,Furniture,8,120,0.05,912
+1197,04-12-2023,C172,Customer_47,North,Printer,electronics,9,200,0.05,1710
+1198,05-01-2023,C152,Customer_109,East,Headphones,electronics,7,50,0,350
+1200,06-05-2023,C118,Customer_184,East,Headphones,electronics,8,50,0.15,340
+1201,16-03-2023,C160,Customer_15,East,Desk Lamp,Furniture,4,35,0.05,133
+1202,14-06-2023,C096,Customer_157,South,Laptop,electronics,2,700,0.05,1330
+1203,05-10-2023,C180,Customer_136,East,Desk Lamp,Furniture,6,35,0,210
+1204,20-11-2023,C113,Customer_5,South,Laptop,electronics,9,700,0,6300
+1206,17-10-2023,C186,Customer_47,West,Headphones,electronics,10,50,0,500
+1207,18-03-2023,C052,Customer_68,South,Laptop,electronics,7,700,0,4900
+1209,17-05-2023,C039,Customer_173,South,Office Chair,Furniture,9,120,0.05,1026
+1210,16-04-2023,C130,Customer_130,West,Laptop,electronics,10,700,0.15,5950
+1211,05-04-2023,C131,Customer_155,South,Laptop,electronics,9,700,0.05,5985
+1212,15-05-2023,C113,Customer_95,North,Office Chair,Furniture,10,120,0.05,1140
+1213,09-03-2023,C101,Customer_115,North,Headphones,electronics,3,50,0.1,135
+1214,27-05-2023,C113,Customer_164,North,Headphones,electronics,5,50,0.15,212.5
+1215,08-06-2023,C184,Customer_36,West,Office Chair,Furniture,8,120,0.15,816
+1216,12-06-2023,C081,Customer_26,West,Desk Lamp,Furniture,8,35,0.15,238
+1217,07-12-2023,C187,Customer_43,East,Notebook,Stationery,4,5,0.1,18
+1218,08-07-2023,C113,Customer_27,West,Pen Set,Stationery,1,2,0.05,1.9
+1219,05-12-2023,C002,Customer_69,North,Printer,electronics,1,200,0.15,170
+1220,05-04-2023,C130,Customer_148,North,Notebook,Stationery,4,5,0.15,17
+1221,30-06-2023,C054,Customer_11,West,Headphones,electronics,6,50,0,300
+1222,15-10-2023,C087,Customer_74,South,Pen Set,Stationery,8,2,0.15,13.6
+1223,18-11-2023,C129,Customer_104,West,mobile_phone,electronics,6,400,0.05,2280
+1224,06-07-2023,C147,Customer_38,West,Tablet,electronics,9,300,0.05,2565
+1225,18-05-2023,C126,Customer_134,North,Laptop,electronics,9,700,0,6300
+1226,10-05-2023,C130,Customer_200,East,Office Chair,Furniture,2,120,0.15,204
+1228,12-11-2023,C172,Customer_47,East,Laptop,electronics,1,700,0.15,595
+1229,30-09-2023,C160,Customer_90,North,Tablet,electronics,2,300,0.1,540
+1230,18-12-2023,C198,Customer_46,West,Printer,electronics,5,200,0.15,850
+1231,24-05-2023,C160,Customer_107,North,Tablet,electronics,4,300,0.05,1140
+1232,16-01-2023,C068,Customer_140,North,Pen Set,Stationery,4,2,0.05,7.6
+1233,29-10-2023,C183,Customer_141,North,Tablet,electronics,9,300,0.1,2430
+1234,02-09-2023,C184,Customer_104,West,Pen Set,Stationery,8,2,0.1,14.4
+1235,17-04-2023,C123,Customer_190,West,Tablet,electronics,6,300,0.15,1530
+1240,23-11-2023,C116,Customer_100,South,Printer,electronics,10,200,0.15,1700
+1241,02-11-2023,C098,Customer_68,West,Pen Set,Stationery,5,2,0.1,9
+1242,05-04-2023,C198,Customer_133,East,Printer,electronics,5,200,0,1000
+1243,28-07-2023,C139,Customer_120,North,Headphones,electronics,6,50,0.1,270
+1244,13-08-2023,C144,Customer_37,West,Office Chair,Furniture,6,120,0.15,612
+1245,14-12-2023,C097,Customer_72,South,Pen Set,Stationery,6,2,0.15,10.2
+1246,17-11-2023,C124,Customer_127,South,Headphones,electronics,2,50,0.1,90
+1248,30-06-2023,C070,Customer_92,North,Desk Lamp,Furniture,3,35,0,105
+1250,18-07-2023,C003,Customer_122,North,Tablet,electronics,8,300,0.15,2040
+1251,16-04-2023,C148,Customer_137,West,Laptop,electronics,1,700,0,700
+1252,07-10-2023,C187,Customer_51,South,Bookshelf,Furniture,1,150,0.05,142.5
+1253,17-09-2023,C164,Customer_29,North,Notebook,Stationery,2,5,0,10
+1254,18-04-2023,C147,Customer_40,North,Headphones,electronics,6,50,0.1,270
+1255,19-01-2023,C090,Customer_41,East,Office Chair,Furniture,9,120,0.1,972
+1256,23-10-2023,C195,Customer_11,East,Notebook,Stationery,4,5,0.1,18
+1257,02-11-2023,C147,Customer_151,South,Office Chair,Furniture,3,120,0,360
+1258,20-06-2023,C148,Customer_1,North,Notebook,Stationery,8,5,0.15,34
+1259,27-11-2023,C096,Customer_46,North,Headphones,electronics,10,50,0.1,450
+1261,12-01-2023,C052,Customer_149,North,Notebook,Stationery,5,5,0,25
+1262,14-07-2023,C161,Customer_90,North,Headphones,electronics,9,50,0.05,427.5
+1263,10-10-2023,C168,Customer_110,North,Printer,electronics,2,200,0.05,380
+1264,01-07-2023,C128,Customer_164,East,Bookshelf,Furniture,3,150,0.15,382.5
+1265,01-11-2023,C039,Customer_182,South,Pen Set,Stationery,7,2,0.15,11.9
+1266,24-05-2023,C082,Customer_57,West,Office Chair,Furniture,7,120,0.1,756
+1268,01-07-2023,C129,Customer_63,West,Tablet,electronics,6,300,0,1800
+1270,25-03-2023,C185,Customer_55,South,Bookshelf,Furniture,10,150,0,1500
+1271,15-06-2023,C178,Customer_115,West,Pen Set,Stationery,6,2,0,12
+1272,11-10-2023,C151,Customer_168,East,Office Chair,Furniture,4,120,0.15,408
+1273,08-10-2023,C159,Customer_143,East,Pen Set,Stationery,3,2,0.05,5.7
+1274,06-04-2023,C042,Customer_149,South,Notebook,Stationery,2,5,0.05,9.5
+1275,23-09-2023,C099,Customer_175,South,Office Chair,Furniture,1,120,0,120
+1276,25-10-2023,C007,Customer_53,North,Notebook,Stationery,5,5,0.1,22.5
+1277,23-10-2023,C144,Customer_137,South,Headphones,electronics,2,50,0.05,95
+1278,13-08-2023,C090,Customer_180,North,Bookshelf,Furniture,2,150,0.1,270
+1279,29-11-2023,C112,Customer_57,North,Headphones,electronics,7,50,0.05,332.5
+1280,27-12-2023,C060,Customer_117,East,mobile_phone,electronics,8,400,0.05,3040
+1281,11-02-2023,C113,Customer_154,East,Pen Set,Stationery,10,2,0.1,18
+1282,30-10-2023,C002,Customer_169,West,Notebook,Stationery,8,5,0.15,34
+1283,03-09-2023,C129,Customer_35,East,Printer,electronics,4,200,0.05,760
+1285,25-08-2023,C140,Customer_25,South,mobile_phone,electronics,7,400,0.1,2520
+1286,22-01-2023,C197,Customer_90,East,Laptop,electronics,1,700,0.15,595
+1287,04-07-2023,C037,Customer_75,West,Desk Lamp,Furniture,4,35,0.05,133
+1288,30-08-2023,C160,Customer_38,South,Office Chair,Furniture,8,120,0.05,912
+1289,29-12-2023,C009,Customer_130,West,mobile_phone,electronics,2,400,0.15,680
+1290,10-10-2023,C099,Customer_135,East,Bookshelf,Furniture,6,150,0.05,855
+1291,10-02-2023,C147,Customer_162,West,Headphones,electronics,6,50,0.15,255
+1292,02-12-2023,C048,Customer_91,South,Bookshelf,Furniture,9,150,0.15,1147.5
+1293,11-06-2023,C131,Customer_17,North,Desk Lamp,Furniture,5,35,0.1,157.5
+1295,30-03-2023,C152,Customer_171,West,Pen Set,Stationery,4,2,0.15,6.8
+1296,18-11-2023,C054,Customer_187,South,Pen Set,Stationery,5,2,0.1,9
+1297,12-01-2023,C120,Customer_108,South,Bookshelf,Furniture,10,150,0,1500
+1298,14-03-2023,C161,Customer_179,West,Notebook,Stationery,5,5,0.05,23.75
+1299,17-03-2023,C152,Customer_182,East,Printer,electronics,8,200,0,1600
+1300,12-12-2023,C116,Customer_152,West,Pen Set,Stationery,10,2,0.15,17
+1301,20-07-2023,C075,Customer_25,South,Printer,electronics,8,200,0.15,1360
+1302,10-01-2023,C113,Customer_199,North,mobile_phone,electronics,2,400,0.15,680
+1303,18-12-2023,C200,Customer_180,North,Printer,electronics,7,200,0.15,1190
+1304,14-08-2023,C164,Customer_198,East,Tablet,electronics,8,300,0.15,2040
+1305,25-06-2023,C166,Customer_88,West,Desk Lamp,Furniture,6,35,0.1,189
+1306,03-10-2023,C104,Customer_161,North,Pen Set,Stationery,5,2,0.15,8.5
+1307,08-02-2023,C084,Customer_177,West,Printer,electronics,9,200,0.1,1620
+1308,01-03-2023,C112,Customer_29,South,Bookshelf,Furniture,3,150,0.05,427.5
+1309,07-03-2023,C099,Customer_63,North,Laptop,electronics,10,700,0.15,5950
+1310,17-11-2023,C153,Customer_150,East,Tablet,electronics,4,300,0.15,1020
+1311,04-05-2023,C093,Customer_154,South,Tablet,electronics,9,300,0,2700
+1312,13-06-2023,C146,Customer_156,East,Notebook,Stationery,6,5,0,30
+1313,08-06-2023,C128,Customer_114,South,Printer,electronics,8,200,0.15,1360
+1314,26-02-2023,C110,Customer_49,North,Notebook,Stationery,7,5,0.15,29.75
+1315,19-03-2023,C082,Customer_199,East,Notebook,Stationery,2,5,0.05,9.5
+1316,13-07-2023,C194,Customer_81,East,Laptop,electronics,3,700,0.1,1890
+1317,12-10-2023,C054,Customer_84,South,mobile_phone,electronics,1,400,0.15,340
+1318,15-01-2023,C163,Customer_105,East,Printer,electronics,9,200,0,1800
+1319,12-01-2023,C189,Customer_177,South,Headphones,electronics,7,50,0.15,297.5
+1320,11-04-2023,C169,Customer_148,South,Pen Set,Stationery,1,2,0,2
+1321,05-06-2023,C161,Customer_118,South,Notebook,Stationery,3,5,0,15
+1323,05-05-2023,C033,Customer_63,North,Office Chair,Furniture,4,120,0,480
+1324,25-12-2023,C142,Customer_189,South,Desk Lamp,Furniture,5,35,0,175
+1325,07-10-2023,C021,Customer_104,West,Laptop,electronics,3,700,0.05,1995
+1326,20-04-2023,C048,Customer_49,East,Laptop,electronics,3,700,0.05,1995
+1327,30-11-2023,C148,Customer_71,West,Bookshelf,Furniture,1,150,0.15,127.5
+1328,23-12-2023,C128,Customer_1,North,mobile_phone,electronics,7,400,0.1,2520
+1329,26-05-2023,C136,Customer_141,West,Pen Set,Stationery,10,2,0.05,19
+1330,04-08-2023,C135,Customer_179,East,Notebook,Stationery,1,5,0.15,4.25
+1331,11-06-2023,C195,Customer_123,West,Desk Lamp,Furniture,2,35,0.05,66.5
+1333,10-11-2023,C128,Customer_62,South,Laptop,electronics,4,700,0.15,2380
+1334,28-11-2023,C033,Customer_32,West,Laptop,electronics,5,700,0.1,3150
+1335,30-05-2023,C176,Customer_158,North,mobile_phone,electronics,2,400,0.15,680
+1336,05-02-2023,C187,Customer_29,North,Office Chair,Furniture,4,120,0.1,432
+1337,22-06-2023,C115,Customer_49,East,Office Chair,Furniture,1,120,0.05,114
+1338,22-01-2023,C119,Customer_173,East,mobile_phone,electronics,2,400,0.05,760
+1339,25-07-2023,C022,Customer_30,West,Laptop,electronics,1,700,0.1,630
+1340,07-05-2023,C158,Customer_144,South,Pen Set,Stationery,10,2,0.1,18
+1341,02-12-2023,C038,Customer_168,North,Printer,electronics,10,200,0.1,1800
+1342,22-12-2023,C109,Customer_19,West,Printer,electronics,4,200,0.15,680
+1343,05-08-2023,C051,Customer_18,North,mobile_phone,electronics,4,400,0.05,1520
+1346,28-05-2023,C027,Customer_115,South,mobile_phone,electronics,9,400,0,3600
+1347,18-01-2023,C027,Customer_175,West,Pen Set,Stationery,9,2,0.15,15.3
+1348,21-10-2023,C021,Customer_194,South,mobile_phone,electronics,5,400,0.05,1900
+1349,14-07-2023,C030,Customer_113,South,Tablet,electronics,10,300,0.05,2850
+1351,31-12-2023,C028,Customer_166,South,Office Chair,Furniture,1,120,0.15,102
+1352,03-05-2023,C111,Customer_179,East,Bookshelf,Furniture,6,150,0.05,855
+1353,06-07-2023,C192,Customer_63,North,Bookshelf,Furniture,2,150,0.15,255
+1354,29-05-2023,C197,Customer_132,North,Office Chair,Furniture,8,120,0.1,864
+1355,14-04-2023,C061,Customer_129,North,Pen Set,Stationery,9,2,0.15,15.3
+1356,31-08-2023,C048,Customer_8,North,Tablet,electronics,4,300,0.15,1020
+1357,19-08-2023,C147,Customer_157,West,Tablet,electronics,5,300,0.15,1275
+1358,25-07-2023,C004,Customer_55,North,Laptop,electronics,8,700,0.05,5320
+1359,17-07-2023,C035,Customer_103,North,Desk Lamp,Furniture,3,35,0.1,94.5
+1360,03-12-2023,C192,Customer_131,North,Printer,electronics,5,200,0,1000
+1361,28-03-2023,C049,Customer_32,North,Headphones,electronics,3,50,0,150
+1362,22-05-2023,C017,Customer_10,East,Pen Set,Stationery,10,2,0.1,18
+1363,13-11-2023,C172,Customer_110,North,Headphones,electronics,3,50,0.1,135
+1365,15-02-2023,C046,Customer_124,West,Office Chair,Furniture,7,120,0.05,798
+1366,15-10-2023,C117,Customer_87,South,Bookshelf,Furniture,7,150,0,1050
+1367,15-01-2023,C006,Customer_55,North,Bookshelf,Furniture,7,150,0.1,945
+1368,13-02-2023,C099,Customer_32,South,Printer,electronics,10,200,0.05,1900
+1369,18-06-2023,C124,Customer_178,South,Office Chair,Furniture,8,120,0,960
+1370,06-11-2023,C037,Customer_135,West,Headphones,electronics,5,50,0.15,212.5
+1371,13-02-2023,C024,Customer_93,South,Notebook,Stationery,5,5,0.05,23.75
+1372,08-04-2023,C093,Customer_8,East,Bookshelf,Furniture,4,150,0,600
+1373,18-09-2023,C046,Customer_65,South,Pen Set,Stationery,7,2,0,14
+1374,19-04-2023,C181,Customer_57,South,Pen Set,Stationery,10,2,0,20
+1375,10-10-2023,C095,Customer_67,South,Laptop,electronics,4,700,0,2800
+1376,09-12-2023,C099,Customer_187,North,mobile_phone,electronics,2,400,0.15,680
+1377,14-04-2023,C188,Customer_72,North,Notebook,Stationery,4,5,0.05,19
+1378,13-09-2023,C116,Customer_54,East,Bookshelf,Furniture,8,150,0.1,1080
+1379,25-07-2023,C191,Customer_67,East,Tablet,electronics,9,300,0.15,2295
+1380,01-12-2023,C160,Customer_51,North,Bookshelf,Furniture,3,150,0.15,382.5
+1381,12-02-2023,C161,Customer_97,East,Laptop,electronics,7,700,0,4900
+1382,19-12-2023,C067,Customer_92,North,Pen Set,Stationery,9,2,0.1,16.2
+1384,14-10-2023,C018,Customer_162,South,Tablet,electronics,10,300,0.1,2700
+1385,21-12-2023,C025,Customer_35,South,Office Chair,Furniture,3,120,0.1,324
+1386,30-09-2023,C054,Customer_96,East,Desk Lamp,Furniture,5,35,0.1,157.5
+1387,24-03-2023,C058,Customer_88,North,Headphones,electronics,1,50,0.1,45
+1388,20-04-2023,C067,Customer_78,North,Desk Lamp,Furniture,3,35,0.1,94.5
+1389,09-07-2023,C104,Customer_32,East,Notebook,Stationery,8,5,0,40
+1390,15-10-2023,C174,Customer_120,North,mobile_phone,electronics,8,400,0,3200
+1391,08-09-2023,C024,Customer_46,West,Tablet,electronics,4,300,0.15,1020
+1392,31-07-2023,C114,Customer_144,South,Printer,electronics,2,200,0,400
+1394,13-05-2023,C175,Customer_165,East,Bookshelf,Furniture,8,150,0.15,1020
+1395,20-07-2023,C086,Customer_182,North,Pen Set,Stationery,10,2,0.05,19
+1396,12-10-2023,C151,Customer_142,East,Bookshelf,Furniture,4,150,0.1,540
+1397,22-11-2023,C194,Customer_55,West,Bookshelf,Furniture,3,150,0,450
+1398,05-04-2023,C127,Customer_176,North,Notebook,Stationery,2,5,0.05,9.5
+1399,05-10-2023,C155,Customer_7,North,Headphones,electronics,9,50,0,450
+1400,21-11-2023,C130,Customer_74,North,Printer,electronics,1,200,0.15,170
+1401,07-08-2023,C017,Customer_7,North,Printer,electronics,7,200,0,1400
+1402,30-03-2023,C104,Customer_161,West,Bookshelf,Furniture,5,150,0.1,675
+1403,13-03-2023,C161,Customer_151,North,Desk Lamp,Furniture,8,35,0.15,238
+1404,04-09-2023,C137,Customer_85,East,Notebook,Stationery,4,5,0.15,17
+1405,09-05-2023,C043,Customer_147,West,Bookshelf,Furniture,7,150,0.05,997.5
+1406,31-07-2023,C176,Customer_112,South,mobile_phone,electronics,5,400,0.1,1800
+1407,09-12-2023,C039,Customer_125,South,Pen Set,Stationery,5,2,0.15,8.5
+1408,06-04-2023,C170,Customer_147,East,Headphones,electronics,9,50,0.1,405
+1409,16-03-2023,C026,Customer_36,East,Office Chair,Furniture,9,120,0,1080
+1410,23-02-2023,C099,Customer_29,West,mobile_phone,electronics,9,400,0,3600
+1411,10-12-2023,C050,Customer_188,South,Desk Lamp,Furniture,6,35,0.15,178.5
+1412,23-02-2023,C153,Customer_82,South,Tablet,electronics,6,300,0.05,1710
+1413,06-08-2023,C152,Customer_2,South,Tablet,electronics,5,300,0.15,1275
+1415,09-04-2023,C060,Customer_47,South,Bookshelf,Furniture,10,150,0.1,1350
+1416,20-01-2023,C135,Customer_197,North,Office Chair,Furniture,8,120,0.15,816
+1417,15-02-2023,C057,Customer_148,East,Laptop,electronics,7,700,0,4900
+1418,12-07-2023,C036,Customer_11,North,Laptop,electronics,7,700,0,4900
+1420,21-04-2023,C020,Customer_195,West,Bookshelf,Furniture,5,150,0.05,712.5
+1421,09-05-2023,C065,Customer_119,West,Printer,electronics,4,200,0.15,680
+1422,03-12-2023,C008,Customer_140,South,Printer,electronics,3,200,0,600
+1423,13-07-2023,C144,Customer_20,South,Headphones,electronics,3,50,0,150
+1424,06-12-2023,C142,Customer_5,West,Office Chair,Furniture,6,120,0,720
+1425,22-11-2023,C115,Customer_37,North,Office Chair,Furniture,4,120,0,480
+1426,08-01-2023,C143,Customer_166,North,Tablet,electronics,6,300,0,1800
+1428,22-04-2023,C098,Customer_53,North,Desk Lamp,Furniture,4,35,0.1,126
+1429,10-06-2023,C066,Customer_172,West,Laptop,electronics,9,700,0,6300
+1430,11-05-2023,C032,Customer_99,North,Desk Lamp,Furniture,5,35,0,175
+1431,07-07-2023,C191,Customer_86,South,Printer,electronics,7,200,0.15,1190
+1432,12-06-2023,C086,Customer_108,West,Printer,electronics,10,200,0.05,1900
+1433,16-07-2023,C051,Customer_24,North,mobile_phone,electronics,2,400,0.05,760
+1435,23-07-2023,C186,Customer_158,West,Office Chair,Furniture,9,120,0.05,1026
+1436,31-07-2023,C063,Customer_120,West,Pen Set,Stationery,3,2,0.15,5.1
+1437,19-04-2023,C190,Customer_59,East,Desk Lamp,Furniture,9,35,0.15,267.75
+1438,03-10-2023,C125,Customer_128,East,Printer,electronics,6,200,0.1,1080
+1439,14-03-2023,C150,Customer_114,West,Notebook,Stationery,4,5,0.15,17
+1440,16-06-2023,C058,Customer_115,East,Tablet,electronics,7,300,0,2100
+1441,17-09-2023,C058,Customer_14,South,Laptop,electronics,8,700,0,5600
+1442,31-08-2023,C086,Customer_9,South,Headphones,electronics,6,50,0.15,255
+1443,02-10-2023,C049,Customer_40,South,Notebook,Stationery,5,5,0.1,22.5
+1445,22-06-2023,C170,Customer_25,East,mobile_phone,electronics,5,400,0.1,1800
+1446,20-06-2023,C070,Customer_103,East,Pen Set,Stationery,8,2,0.05,15.2
+1447,21-05-2023,C015,Customer_22,North,Printer,electronics,1,200,0.15,170
+1448,07-07-2023,C054,Customer_4,North,Tablet,electronics,7,300,0.15,1785
+1449,27-03-2023,C188,Customer_154,East,Notebook,Stationery,10,5,0,50
+1450,21-02-2023,C101,Customer_186,East,Headphones,electronics,10,50,0.05,475
+1451,21-04-2023,C008,Customer_29,East,Office Chair,Furniture,2,120,0.1,216
+1452,31-12-2023,C053,Customer_109,West,mobile_phone,electronics,9,400,0.15,3060
+1453,08-12-2023,C060,Customer_98,East,Office Chair,Furniture,1,120,0.1,108
+1454,12-02-2023,C108,Customer_37,North,Tablet,electronics,10,300,0,3000
+1455,30-07-2023,C005,Customer_75,West,Notebook,Stationery,6,5,0.05,28.5
+1456,19-07-2023,C103,Customer_70,East,mobile_phone,electronics,9,400,0.05,3420
+1457,25-10-2023,C196,Customer_146,North,Notebook,Stationery,1,5,0.15,4.25
+1458,12-12-2023,C006,Customer_128,West,Printer,electronics,4,200,0.05,760
+1459,28-08-2023,C109,Customer_85,East,Bookshelf,Furniture,4,150,0.15,510
+1460,25-04-2023,C116,Customer_42,East,mobile_phone,electronics,9,400,0,3600
+1461,26-01-2023,C094,Customer_100,East,Office Chair,Furniture,5,120,0,600
+1462,26-10-2023,C047,Customer_41,West,Tablet,electronics,5,300,0.15,1275
+1463,18-03-2023,C099,Customer_166,North,Pen Set,Stationery,6,2,0.1,10.8
+1464,17-05-2023,C055,Customer_34,North,Printer,electronics,1,200,0.15,170
+1465,20-01-2023,C168,Customer_17,South,Bookshelf,Furniture,1,150,0.05,142.5
+1466,30-07-2023,C052,Customer_165,East,Pen Set,Stationery,9,2,0,18
+1467,28-08-2023,C144,Customer_153,South,Laptop,electronics,3,700,0.05,1995
+1468,08-02-2023,C013,Customer_122,South,Printer,electronics,4,200,0.05,760
+1469,25-09-2023,C114,Customer_76,North,Tablet,electronics,1,300,0.15,255
+1470,26-07-2023,C124,Customer_87,West,Headphones,electronics,9,50,0.1,405
+1471,24-09-2023,C106,Customer_117,West,mobile_phone,electronics,8,400,0.05,3040
+1472,03-06-2023,C158,Customer_106,North,Notebook,Stationery,2,5,0.1,9
+1473,11-02-2023,C147,Customer_86,West,Tablet,electronics,8,300,0.15,2040
+1474,11-01-2023,C145,Customer_27,South,mobile_phone,electronics,7,400,0.1,2520
+1475,21-10-2023,C120,Customer_57,East,Pen Set,Stationery,6,2,0.15,10.2
+1476,08-04-2023,C063,Customer_31,North,Notebook,Stationery,1,5,0,5
+1477,02-10-2023,C019,Customer_134,East,Desk Lamp,Furniture,7,35,0.1,220.5
+1478,18-08-2023,C092,Customer_168,West,Office Chair,Furniture,10,120,0.1,1080
+1479,08-08-2023,C058,Customer_98,East,Laptop,electronics,7,700,0,4900
+1480,06-03-2023,C183,Customer_12,West,Printer,electronics,9,200,0.1,1620
+1481,21-12-2023,C090,Customer_53,West,Tablet,electronics,1,300,0,300
+1482,20-08-2023,C117,Customer_199,South,Laptop,electronics,2,700,0.05,1330
+1483,24-11-2023,C062,Customer_138,West,Headphones,electronics,9,50,0.15,382.5
+1484,21-02-2023,C023,Customer_173,South,mobile_phone,electronics,9,400,0,3600
+1485,20-09-2023,C127,Customer_145,South,mobile_phone,electronics,6,400,0.1,2160
+1486,24-09-2023,C137,Customer_154,South,Tablet,electronics,6,300,0,1800
+1488,13-11-2023,C129,Customer_122,North,Bookshelf,Furniture,4,150,0.05,570
+1489,20-11-2023,C058,Customer_46,West,Desk Lamp,Furniture,5,35,0,175
+1490,03-06-2023,C122,Customer_64,South,Office Chair,Furniture,3,120,0.05,342
+1491,24-12-2023,C001,Customer_130,North,Notebook,Stationery,1,5,0.15,4.25
+1492,20-05-2023,C034,Customer_54,South,Headphones,electronics,1,50,0.1,45
+1494,27-04-2023,C126,Customer_193,East,Bookshelf,Furniture,1,150,0.05,142.5
+1495,15-02-2023,C118,Customer_51,East,Desk Lamp,Furniture,1,35,0.15,29.75
+1496,05-11-2023,C048,Customer_181,West,Desk Lamp,Furniture,3,35,0,105
+1497,29-03-2023,C089,Customer_36,South,Tablet,electronics,10,300,0,3000
+1498,27-07-2023,C117,Customer_115,East,Headphones,electronics,4,50,0.1,180
+1499,26-09-2023,C129,Customer_26,North,Pen Set,Stationery,4,2,0.05,7.6
+1502,23-02-2023,C192,Customer_11,East,Printer,electronics,3,200,0.15,510
+1503,26-04-2023,C191,Customer_40,West,Tablet,electronics,4,300,0.15,1020
+1504,28-04-2023,C069,Customer_11,North,Notebook,Stationery,3,5,0,15
+1505,17-09-2023,C022,Customer_164,South,Printer,electronics,8,200,0,1600
+1506,16-03-2023,C093,Customer_113,North,Printer,electronics,10,200,0.05,1900
+1507,01-11-2023,C195,Customer_187,South,Headphones,electronics,1,50,0.15,42.5
+1508,07-01-2023,C076,Customer_39,West,Headphones,electronics,2,50,0,100
+1509,02-05-2023,C154,Customer_54,West,Laptop,electronics,7,700,0,4900
+1510,11-01-2023,C144,Customer_98,West,Desk Lamp,Furniture,4,35,0.1,126
+1511,14-12-2023,C179,Customer_55,West,Notebook,Stationery,8,5,0,40
+1512,03-08-2023,C086,Customer_111,South,Tablet,electronics,3,300,0,900
+1513,06-10-2023,C185,Customer_152,East,mobile_phone,electronics,6,400,0.15,2040
+1514,28-01-2023,C029,Customer_150,South,Tablet,electronics,9,300,0.05,2565
+1515,23-08-2023,C069,Customer_69,North,Laptop,electronics,1,700,0.15,595
+1516,09-11-2023,C047,Customer_56,West,Office Chair,Furniture,1,120,0.05,114
+1517,26-01-2023,C094,Customer_33,West,Desk Lamp,Furniture,8,35,0.1,252
+1519,29-01-2023,C197,Customer_148,South,Bookshelf,Furniture,5,150,0.1,675
+1520,19-12-2023,C144,Customer_81,East,Office Chair,Furniture,1,120,0.05,114
+1521,13-06-2023,C176,Customer_190,East,Headphones,electronics,5,50,0.15,212.5
+1522,27-09-2023,C085,Customer_109,North,Printer,electronics,6,200,0.15,1020
+1523,30-11-2023,C039,Customer_154,East,Bookshelf,Furniture,8,150,0.1,1080
+1524,04-02-2023,C100,Customer_194,South,Tablet,electronics,3,300,0.05,855
+1527,30-09-2023,C023,Customer_17,South,Laptop,electronics,9,700,0,6300
+1528,27-07-2023,C010,Customer_129,West,Notebook,Stationery,4,5,0.1,18
+1529,26-08-2023,C069,Customer_61,North,Bookshelf,Furniture,4,150,0,600
+1530,03-04-2023,C100,Customer_171,South,Bookshelf,Furniture,7,150,0,1050
+1531,22-06-2023,C034,Customer_104,North,Pen Set,Stationery,2,2,0.15,3.4
+1532,20-03-2023,C180,Customer_42,East,Office Chair,Furniture,8,120,0,960
+1533,20-04-2023,C138,Customer_25,South,Desk Lamp,Furniture,6,35,0,210
+1534,05-08-2023,C147,Customer_39,West,Office Chair,Furniture,3,120,0.15,306
+1535,24-12-2023,C186,Customer_35,South,Notebook,Stationery,9,5,0.1,40.5
+1536,16-04-2023,C096,Customer_131,North,Tablet,electronics,5,300,0,1500
+1537,16-02-2023,C001,Customer_108,North,Tablet,electronics,8,300,0.05,2280
+1538,30-06-2023,C069,Customer_172,South,Tablet,electronics,7,300,0.05,1995
+1539,05-03-2023,C004,Customer_179,West,Pen Set,Stationery,8,2,0,16
+1540,03-09-2023,C016,Customer_102,West,Tablet,electronics,7,300,0,2100
+1541,01-09-2023,C024,Customer_98,West,Notebook,Stationery,3,5,0.05,14.25
+1543,28-03-2023,C002,Customer_19,South,Desk Lamp,Furniture,7,35,0,245
+1544,05-08-2023,C128,Customer_101,East,Notebook,Stationery,3,5,0.15,12.75
+1545,07-01-2023,C160,Customer_44,North,Desk Lamp,Furniture,3,35,0.05,99.75
+1546,05-10-2023,C084,Customer_187,West,Notebook,Stationery,2,5,0,10
+1548,29-07-2023,C140,Customer_189,West,Headphones,electronics,8,50,0.05,380
+1549,18-06-2023,C178,Customer_17,East,Bookshelf,Furniture,1,150,0.05,142.5
+1550,26-11-2023,C163,Customer_74,West,Office Chair,Furniture,1,120,0,120
+1551,18-05-2023,C124,Customer_57,West,Printer,electronics,5,200,0.1,900
+1553,18-08-2023,C161,Customer_47,South,Bookshelf,Furniture,1,150,0.05,142.5
+1555,10-06-2023,C179,Customer_62,South,Notebook,Stationery,1,5,0,5
+1556,01-01-2023,C171,Customer_80,East,Laptop,electronics,5,700,0.1,3150
+1557,24-08-2023,C101,Customer_83,West,Bookshelf,Furniture,9,150,0,1350
+1558,07-07-2023,C012,Customer_8,South,Headphones,electronics,5,50,0.15,212.5
+1559,04-01-2023,C067,Customer_149,North,Notebook,Stationery,6,5,0.1,27
+1561,06-08-2023,C161,Customer_118,South,Tablet,electronics,1,300,0.1,270
+1562,17-09-2023,C168,Customer_198,North,Notebook,Stationery,2,5,0,10
+1564,12-03-2023,C043,Customer_25,North,Headphones,electronics,3,50,0.05,142.5
+1565,27-06-2023,C044,Customer_89,East,Headphones,electronics,6,50,0.15,255
+1566,08-07-2023,C029,Customer_12,West,Bookshelf,Furniture,5,150,0.1,675
+1567,18-10-2023,C141,Customer_143,South,mobile_phone,electronics,2,400,0,800
+1568,08-01-2023,C012,Customer_59,North,Notebook,Stationery,7,5,0.1,31.5
+1571,01-09-2023,C130,Customer_26,North,Bookshelf,Furniture,4,150,0.05,570
+1572,03-05-2023,C035,Customer_47,South,Desk Lamp,Furniture,6,35,0,210
+1573,26-10-2023,C081,Customer_32,West,Laptop,electronics,7,700,0,4900
+1574,10-10-2023,C090,Customer_10,North,Tablet,electronics,7,300,0.15,1785
+1576,30-11-2023,C093,Customer_199,East,Printer,electronics,3,200,0.05,570
+1577,26-05-2023,C154,Customer_145,West,Printer,electronics,6,200,0.1,1080
+1578,05-06-2023,C090,Customer_151,East,Printer,electronics,8,200,0,1600
+1579,16-01-2023,C162,Customer_26,West,Headphones,electronics,4,50,0.15,170
+1580,21-12-2023,C115,Customer_86,East,Printer,electronics,8,200,0.1,1440
+1581,16-02-2023,C105,Customer_135,South,Tablet,electronics,2,300,0.1,540
+1582,08-09-2023,C135,Customer_14,North,Laptop,electronics,10,700,0.05,6650
+1583,06-07-2023,C196,Customer_79,South,Printer,electronics,9,200,0.15,1530
+1584,31-01-2023,C058,Customer_117,North,Notebook,Stationery,9,5,0,45
+1585,17-09-2023,C114,Customer_7,North,Notebook,Stationery,8,5,0.15,34
+1586,17-01-2023,C075,Customer_137,North,Headphones,electronics,10,50,0.1,450
+1587,08-02-2023,C157,Customer_115,South,Tablet,electronics,10,300,0.15,2550
+1588,31-10-2023,C120,Customer_176,North,Laptop,electronics,1,700,0,700
+1589,08-02-2023,C164,Customer_72,South,mobile_phone,electronics,2,400,0,800
+1590,12-05-2023,C021,Customer_59,West,Bookshelf,Furniture,6,150,0.05,855
+1591,30-01-2023,C164,Customer_82,East,Laptop,electronics,10,700,0,7000
+1592,07-06-2023,C138,Customer_116,East,Bookshelf,Furniture,5,150,0,750
+1593,05-10-2023,C101,Customer_167,North,Desk Lamp,Furniture,9,35,0.15,267.75
+1594,22-07-2023,C152,Customer_146,South,Bookshelf,Furniture,5,150,0.15,637.5
+1595,07-03-2023,C192,Customer_187,East,Office Chair,Furniture,2,120,0.1,216
+1596,18-04-2023,C177,Customer_103,South,Notebook,Stationery,10,5,0.05,47.5
+1597,25-09-2023,C099,Customer_17,South,Tablet,electronics,4,300,0.15,1020
+1598,10-08-2023,C036,Customer_14,North,Pen Set,Stationery,9,2,0,18
+1599,19-10-2023,C096,Customer_159,East,Headphones,electronics,1,50,0.1,45
+1601,31-03-2023,C151,Customer_108,North,Bookshelf,Furniture,7,150,0.05,997.5
+1602,30-06-2023,C190,Customer_188,East,Printer,electronics,3,200,0.05,570
+1603,12-09-2023,C037,Customer_45,East,Tablet,electronics,10,300,0.1,2700
+1605,14-09-2023,C113,Customer_131,West,Headphones,electronics,9,50,0.1,405
+1606,12-12-2023,C183,Customer_37,South,Notebook,Stationery,3,5,0.1,13.5
+1607,28-03-2023,C013,Customer_171,East,Tablet,electronics,2,300,0.1,540
+1608,31-03-2023,C023,Customer_168,West,Headphones,electronics,8,50,0,400
+1609,25-08-2023,C099,Customer_183,South,Desk Lamp,Furniture,10,35,0,350
+1611,13-02-2023,C030,Customer_39,South,Headphones,electronics,6,50,0.05,285
+1612,19-07-2023,C017,Customer_15,West,Office Chair,Furniture,10,120,0,1200
+1614,27-03-2023,C062,Customer_4,North,Office Chair,Furniture,7,120,0,840
+1615,19-01-2023,C084,Customer_93,South,mobile_phone,electronics,6,400,0.15,2040
+1616,11-04-2023,C112,Customer_153,West,Bookshelf,Furniture,4,150,0.1,540
+1617,05-04-2023,C086,Customer_141,West,mobile_phone,electronics,9,400,0.15,3060
+1618,11-09-2023,C141,Customer_161,North,Desk Lamp,Furniture,6,35,0.05,199.5
+1619,23-12-2023,C187,Customer_16,North,Notebook,Stationery,4,5,0.05,19
+1620,30-01-2023,C019,Customer_170,West,Laptop,electronics,3,700,0,2100
+1621,06-09-2023,C177,Customer_108,East,Bookshelf,Furniture,4,150,0.05,570
+1622,02-02-2023,C100,Customer_126,North,Desk Lamp,Furniture,3,35,0,105
+1623,17-08-2023,C140,Customer_194,West,Office Chair,Furniture,2,120,0,240
+1624,12-01-2023,C189,Customer_55,North,Office Chair,Furniture,5,120,0.15,510
+1625,28-04-2023,C147,Customer_170,East,Office Chair,Furniture,2,120,0.1,216
+1626,16-12-2023,C076,Customer_34,South,Notebook,Stationery,6,5,0.05,28.5
+1627,04-06-2023,C009,Customer_158,North,mobile_phone,electronics,3,400,0.15,1020
+1628,03-09-2023,C199,Customer_13,East,Laptop,electronics,6,700,0,4200
+1629,28-11-2023,C028,Customer_141,West,Office Chair,Furniture,10,120,0,1200
+1631,29-01-2023,C052,Customer_160,North,Bookshelf,Furniture,1,150,0.1,135
+1632,10-06-2023,C083,Customer_96,West,Tablet,electronics,6,300,0.1,1620
+1633,23-08-2023,C111,Customer_123,South,Pen Set,Stationery,9,2,0.15,15.3
+1634,09-07-2023,C144,Customer_39,West,Laptop,electronics,4,700,0,2800
+1635,27-04-2023,C117,Customer_46,North,Notebook,Stationery,2,5,0,10
+1636,28-09-2023,C069,Customer_29,West,Laptop,electronics,4,700,0.1,2520
+1637,15-09-2023,C099,Customer_190,East,Tablet,electronics,1,300,0.05,285
+1638,29-06-2023,C140,Customer_62,West,Bookshelf,Furniture,3,150,0.1,405
+1640,01-10-2023,C180,Customer_16,West,Headphones,electronics,9,50,0.1,405
+1641,16-09-2023,C123,Customer_184,South,Bookshelf,Furniture,10,150,0.1,1350
+1642,15-05-2023,C053,Customer_121,West,Laptop,electronics,5,700,0,3500
+1643,20-06-2023,C151,Customer_10,South,Office Chair,Furniture,6,120,0.1,648
+1645,24-08-2023,C057,Customer_153,South,Laptop,electronics,5,700,0.05,3325
+1647,30-12-2023,C109,Customer_84,North,Headphones,electronics,6,50,0.15,255
+1649,11-01-2023,C042,Customer_65,East,Pen Set,Stationery,2,2,0.15,3.4
+1650,09-03-2023,C186,Customer_177,South,Desk Lamp,Furniture,9,35,0.05,299.25
+1651,29-07-2023,C167,Customer_3,South,Printer,electronics,1,200,0.05,190
+1652,15-07-2023,C142,Customer_173,South,Printer,electronics,1,200,0.1,180
+1653,08-04-2023,C122,Customer_142,East,Laptop,electronics,4,700,0,2800
+1655,22-01-2023,C163,Customer_158,South,Office Chair,Furniture,1,120,0.15,102
+1657,14-05-2023,C146,Customer_146,North,Notebook,Stationery,4,5,0.05,19
+1658,25-01-2023,C076,Customer_190,East,Bookshelf,Furniture,3,150,0.05,427.5
+1659,04-07-2023,C009,Customer_37,South,Printer,electronics,1,200,0,200
+1660,26-03-2023,C074,Customer_153,East,Laptop,electronics,10,700,0.1,6300
+1661,24-02-2023,C186,Customer_176,South,Notebook,Stationery,4,5,0.15,17
+1663,24-05-2023,C007,Customer_181,West,Bookshelf,Furniture,10,150,0,1500
+1664,17-12-2023,C174,Customer_73,South,Printer,electronics,6,200,0.15,1020
+1665,16-06-2023,C141,Customer_143,West,Tablet,electronics,6,300,0.05,1710
+1666,12-08-2023,C168,Customer_49,South,Desk Lamp,Furniture,1,35,0.15,29.75
+1667,08-08-2023,C170,Customer_121,West,Desk Lamp,Furniture,10,35,0,350
+1668,28-06-2023,C137,Customer_88,North,Notebook,Stationery,2,5,0,10
+1669,29-04-2023,C178,Customer_196,North,Desk Lamp,Furniture,6,35,0.15,178.5
+1670,22-09-2023,C027,Customer_140,North,Tablet,electronics,2,300,0.1,540
+1671,30-05-2023,C122,Customer_187,East,Laptop,electronics,3,700,0.15,1785
+1672,03-08-2023,C194,Customer_37,East,Bookshelf,Furniture,4,150,0.05,570
+1673,16-07-2023,C005,Customer_61,North,Tablet,electronics,5,300,0.1,1350
+1674,11-02-2023,C029,Customer_171,East,Bookshelf,Furniture,9,150,0.05,1282.5
+1675,22-02-2023,C165,Customer_124,West,Bookshelf,Furniture,4,150,0.15,510
+1676,26-11-2023,C166,Customer_198,South,Printer,electronics,9,200,0.1,1620
+1677,08-09-2023,C083,Customer_39,South,Laptop,electronics,10,700,0.05,6650
+1678,22-10-2023,C136,Customer_184,South,Pen Set,Stationery,3,2,0.15,5.1
+1679,28-09-2023,C109,Customer_63,North,Desk Lamp,Furniture,8,35,0,280
+1680,03-05-2023,C065,Customer_46,East,Pen Set,Stationery,1,2,0.1,1.8
+1681,05-12-2023,C086,Customer_88,West,Printer,electronics,9,200,0.15,1530
+1682,23-09-2023,C145,Customer_11,West,Bookshelf,Furniture,9,150,0,1350
+1683,14-12-2023,C071,Customer_62,North,Notebook,Stationery,10,5,0.05,47.5
+1684,29-01-2023,C045,Customer_77,West,Desk Lamp,Furniture,2,35,0.05,66.5
+1686,06-01-2023,C036,Customer_199,West,Laptop,electronics,8,700,0.15,4760
+1687,21-04-2023,C070,Customer_52,West,Headphones,electronics,7,50,0,350
+1688,21-10-2023,C159,Customer_4,East,mobile_phone,electronics,1,400,0.1,360
+1689,18-03-2023,C019,Customer_59,West,mobile_phone,electronics,5,400,0.15,1700
+1690,15-12-2023,C189,Customer_72,South,mobile_phone,electronics,7,400,0.15,2380
+1691,27-05-2023,C108,Customer_148,North,Headphones,electronics,4,50,0.15,170
+1692,08-03-2023,C182,Customer_93,East,Laptop,electronics,1,700,0.15,595
+1693,08-01-2023,C167,Customer_63,West,Headphones,electronics,9,50,0.05,427.5
+1694,02-05-2023,C091,Customer_54,East,mobile_phone,electronics,5,400,0.15,1700
+1695,06-12-2023,C090,Customer_117,West,Printer,electronics,2,200,0.05,380
+1696,24-06-2023,C019,Customer_110,South,Tablet,electronics,8,300,0.15,2040
+1697,28-06-2023,C039,Customer_74,North,Bookshelf,Furniture,2,150,0.1,270
+1698,26-03-2023,C126,Customer_107,West,Headphones,electronics,3,50,0,150
+1699,14-02-2023,C195,Customer_57,West,Laptop,electronics,10,700,0.1,6300
+1700,16-05-2023,C173,Customer_169,West,Laptop,electronics,1,700,0.15,595
+1701,09-12-2023,C141,Customer_3,West,Pen Set,Stationery,2,2,0.15,3.4
+1702,16-01-2023,C126,Customer_120,North,Tablet,electronics,7,300,0.15,1785
+1703,29-11-2023,C058,Customer_6,North,Notebook,Stationery,10,5,0.1,45
+1704,14-07-2023,C148,Customer_5,South,Desk Lamp,Furniture,2,35,0.15,59.5
+1705,09-01-2023,C200,Customer_5,North,mobile_phone,electronics,6,400,0.1,2160
+1706,12-11-2023,C061,Customer_54,West,Notebook,Stationery,3,5,0.05,14.25
+1707,30-11-2023,C127,Customer_47,South,Pen Set,Stationery,4,2,0,8
+1708,29-11-2023,C105,Customer_177,South,mobile_phone,electronics,8,400,0,3200
+1709,23-11-2023,C167,Customer_9,South,Tablet,electronics,3,300,0.1,810
+1710,15-01-2023,C001,Customer_99,West,Pen Set,Stationery,10,2,0.05,19
+1711,23-11-2023,C131,Customer_20,East,mobile_phone,electronics,6,400,0.1,2160
+1714,05-10-2023,C191,Customer_123,North,Notebook,Stationery,8,5,0,40
+1715,23-04-2023,C113,Customer_163,West,Notebook,Stationery,8,5,0.05,38
+1717,23-09-2023,C056,Customer_82,South,Tablet,electronics,10,300,0,3000
+1718,27-07-2023,C161,Customer_62,West,Headphones,electronics,1,50,0.05,47.5
+1719,20-04-2023,C166,Customer_145,South,Office Chair,Furniture,9,120,0,1080
+1720,19-07-2023,C117,Customer_3,North,Printer,electronics,6,200,0.15,1020
+1721,02-11-2023,C134,Customer_160,South,mobile_phone,electronics,9,400,0.15,3060
+1722,12-01-2023,C058,Customer_13,West,Office Chair,Furniture,7,120,0.05,798
+1723,11-12-2023,C044,Customer_120,North,Tablet,electronics,1,300,0.1,270
+1724,07-07-2023,C173,Customer_125,East,Bookshelf,Furniture,1,150,0.1,135
+1725,03-06-2023,C160,Customer_89,South,mobile_phone,electronics,6,400,0.15,2040
+1726,30-11-2023,C173,Customer_73,North,Laptop,electronics,5,700,0,3500
+1727,06-10-2023,C061,Customer_68,South,Notebook,Stationery,9,5,0.1,40.5
+1728,20-06-2023,C047,Customer_142,North,Tablet,electronics,2,300,0.05,570
+1729,14-05-2023,C149,Customer_101,North,Laptop,electronics,8,700,0.1,5040
+1730,25-01-2023,C080,Customer_98,South,Desk Lamp,Furniture,5,35,0.15,148.75
+1731,18-01-2023,C118,Customer_11,East,Pen Set,Stationery,2,2,0,4
+1733,21-05-2023,C147,Customer_184,North,Printer,electronics,6,200,0.1,1080
+1736,11-10-2023,C146,Customer_29,East,Desk Lamp,Furniture,4,35,0,140
+1737,26-05-2023,C047,Customer_137,West,Bookshelf,Furniture,2,150,0.15,255
+1738,11-11-2023,C049,Customer_195,South,Notebook,Stationery,5,5,0.05,23.75
+1740,02-04-2023,C143,Customer_76,South,Printer,electronics,2,200,0.05,380
+1741,28-06-2023,C159,Customer_170,West,Office Chair,Furniture,6,120,0.1,648
+1742,25-02-2023,C001,Customer_9,South,mobile_phone,electronics,10,400,0.1,3600
+1743,04-06-2023,C117,Customer_40,East,Headphones,electronics,9,50,0.05,427.5
+1744,09-06-2023,C054,Customer_25,South,Tablet,electronics,4,300,0.15,1020
+1745,21-04-2023,C118,Customer_5,East,Desk Lamp,Furniture,6,35,0.15,178.5
+1746,17-05-2023,C003,Customer_139,South,Notebook,Stationery,7,5,0.1,31.5
+1747,20-08-2023,C144,Customer_187,East,Printer,electronics,6,200,0.15,1020
+1748,08-08-2023,C185,Customer_124,East,Office Chair,Furniture,8,120,0.1,864
+1749,09-03-2023,C012,Customer_38,South,Pen Set,Stationery,4,2,0.15,6.8
+1750,29-10-2023,C074,Customer_72,West,mobile_phone,electronics,1,400,0.1,360
+1752,19-11-2023,C200,Customer_176,West,Tablet,electronics,3,300,0,900
+1753,06-01-2023,C102,Customer_90,South,Notebook,Stationery,6,5,0.05,28.5
+1754,07-10-2023,C152,Customer_146,West,Desk Lamp,Furniture,2,35,0,70
+1755,04-04-2023,C156,Customer_198,East,Bookshelf,Furniture,9,150,0.05,1282.5
+1756,26-09-2023,C117,Customer_37,North,Pen Set,Stationery,1,2,0.05,1.9
+1757,16-07-2023,C008,Customer_60,South,Notebook,Stationery,6,5,0.1,27
+1758,25-01-2023,C122,Customer_176,South,Office Chair,Furniture,6,120,0,720
+1759,28-05-2023,C092,Customer_28,South,Headphones,electronics,5,50,0,250
+1760,28-04-2023,C164,Customer_197,North,Laptop,electronics,5,700,0,3500
+1761,04-12-2023,C090,Customer_81,East,Bookshelf,Furniture,1,150,0.15,127.5
+1762,04-12-2023,C136,Customer_114,South,Desk Lamp,Furniture,10,35,0,350
+1763,07-03-2023,C186,Customer_40,West,mobile_phone,electronics,5,400,0.15,1700
+1764,28-10-2023,C060,Customer_45,South,Bookshelf,Furniture,2,150,0.05,285
+1765,24-06-2023,C178,Customer_62,South,Printer,electronics,7,200,0,1400
+1766,15-11-2023,C028,Customer_93,South,Desk Lamp,Furniture,3,35,0.05,99.75
+1767,17-03-2023,C101,Customer_115,South,Headphones,electronics,4,50,0,200
+1768,24-04-2023,C041,Customer_186,East,Printer,electronics,3,200,0,600
+1770,06-09-2023,C155,Customer_56,East,Laptop,electronics,4,700,0.05,2660
+1771,22-07-2023,C191,Customer_40,West,Laptop,electronics,5,700,0,3500
+1772,27-05-2023,C145,Customer_98,South,Headphones,electronics,1,50,0.1,45
+1775,26-01-2023,C141,Customer_33,North,mobile_phone,electronics,10,400,0.05,3800
+1777,14-01-2023,C035,Customer_147,South,Laptop,electronics,9,700,0.1,5670
+1778,14-02-2023,C134,Customer_80,East,Laptop,electronics,5,700,0.05,3325
+1779,04-08-2023,C082,Customer_168,South,Office Chair,Furniture,10,120,0,1200
+1780,21-08-2023,C115,Customer_92,East,Printer,electronics,4,200,0,800
+1781,12-07-2023,C197,Customer_97,South,Bookshelf,Furniture,8,150,0.15,1020
+1782,20-02-2023,C047,Customer_59,South,mobile_phone,electronics,9,400,0,3600
+1783,02-08-2023,C153,Customer_59,West,Headphones,electronics,7,50,0.05,332.5
+1784,31-05-2023,C194,Customer_48,South,Bookshelf,Furniture,7,150,0,1050
+1785,02-10-2023,C010,Customer_169,West,Office Chair,Furniture,5,120,0.05,570
+1786,04-12-2023,C056,Customer_13,South,Laptop,electronics,4,700,0,2800
+1787,17-03-2023,C030,Customer_107,North,Headphones,electronics,10,50,0.1,450
+1788,08-08-2023,C109,Customer_45,South,Laptop,electronics,1,700,0.15,595
+1789,14-12-2023,C005,Customer_89,North,mobile_phone,electronics,10,400,0,4000
+1790,06-07-2023,C119,Customer_181,North,Printer,electronics,10,200,0.1,1800
+1791,16-10-2023,C033,Customer_170,South,Bookshelf,Furniture,7,150,0.1,945
+1792,28-01-2023,C118,Customer_100,North,Bookshelf,Furniture,1,150,0.15,127.5
+1793,29-06-2023,C065,Customer_191,West,Tablet,electronics,1,300,0.1,270
+1795,06-05-2023,C177,Customer_166,South,Pen Set,Stationery,9,2,0,18
+1796,26-06-2023,C011,Customer_188,North,Office Chair,Furniture,6,120,0.15,612
+1797,06-02-2023,C085,Customer_7,South,Pen Set,Stationery,3,2,0.1,5.4
+1798,09-04-2023,C026,Customer_133,West,Tablet,electronics,3,300,0.05,855
+1799,08-04-2023,C063,Customer_45,South,mobile_phone,electronics,7,400,0.15,2380
+1800,07-05-2023,C086,Customer_58,South,Office Chair,Furniture,6,120,0.1,648
+1801,17-06-2023,C059,Customer_31,North,Printer,electronics,9,200,0.15,1530
+1802,21-03-2023,C027,Customer_23,West,Pen Set,Stationery,6,2,0.1,10.8
+1803,21-10-2023,C177,Customer_170,East,Printer,electronics,5,200,0.15,850
+1804,29-11-2023,C161,Customer_138,East,Pen Set,Stationery,10,2,0.05,19
+1805,06-05-2023,C098,Customer_160,North,Printer,electronics,7,200,0.05,1330
+1806,09-12-2023,C105,Customer_107,South,Pen Set,Stationery,1,2,0,2
+1807,06-11-2023,C099,Customer_181,North,Printer,electronics,7,200,0.15,1190
+1808,30-05-2023,C129,Customer_158,North,Tablet,electronics,3,300,0,900
+1809,16-01-2023,C149,Customer_39,North,Desk Lamp,Furniture,9,35,0.15,267.75
+1810,28-01-2023,C055,Customer_159,South,Office Chair,Furniture,6,120,0.1,648
+1811,22-06-2023,C006,Customer_82,West,Headphones,electronics,9,50,0.1,405
+1812,15-02-2023,C197,Customer_100,North,mobile_phone,electronics,5,400,0,2000
+1813,24-11-2023,C095,Customer_2,South,Notebook,Stationery,7,5,0.15,29.75
+1814,24-08-2023,C133,Customer_77,West,Laptop,electronics,4,700,0,2800
+1815,02-08-2023,C102,Customer_12,North,Headphones,electronics,7,50,0.05,332.5
+1816,26-03-2023,C003,Customer_39,East,Laptop,electronics,1,700,0,700
+1817,09-10-2023,C181,Customer_194,West,Office Chair,Furniture,7,120,0,840
+1818,20-08-2023,C023,Customer_13,North,Headphones,electronics,8,50,0.1,360
+1819,26-03-2023,C053,Customer_46,West,Printer,electronics,5,200,0,1000
+1820,06-03-2023,C165,Customer_155,West,Printer,electronics,2,200,0.15,340
+1821,14-05-2023,C083,Customer_113,West,Notebook,Stationery,5,5,0.1,22.5
+1822,31-05-2023,C145,Customer_17,West,Laptop,electronics,6,700,0,4200
+1823,25-04-2023,C085,Customer_104,West,mobile_phone,electronics,2,400,0.05,760
+1824,05-03-2023,C078,Customer_98,West,Office Chair,Furniture,6,120,0,720
+1825,09-12-2023,C110,Customer_188,North,Printer,electronics,6,200,0,1200
+1826,29-12-2023,C001,Customer_192,East,Desk Lamp,Furniture,1,35,0,35
+1827,18-12-2023,C051,Customer_88,South,Tablet,electronics,1,300,0.1,270
+1828,07-06-2023,C173,Customer_109,West,Tablet,electronics,10,300,0.15,2550
+1829,18-03-2023,C004,Customer_163,South,Pen Set,Stationery,3,2,0.05,5.7
+1830,26-05-2023,C190,Customer_70,North,mobile_phone,electronics,10,400,0,4000
+1831,09-12-2023,C193,Customer_158,West,Tablet,electronics,10,300,0.15,2550
+1832,13-08-2023,C113,Customer_199,East,Pen Set,Stationery,3,2,0.15,5.1
+1833,09-11-2023,C032,Customer_74,South,Laptop,electronics,4,700,0.1,2520
+1834,13-04-2023,C034,Customer_63,West,Printer,electronics,2,200,0.05,380
+1835,13-12-2023,C092,Customer_156,North,Printer,electronics,9,200,0.1,1620
+1836,28-10-2023,C095,Customer_60,East,Desk Lamp,Furniture,10,35,0.15,297.5
+1837,29-03-2023,C072,Customer_79,South,Headphones,electronics,7,50,0.15,297.5
+1838,30-10-2023,C039,Customer_37,South,Tablet,electronics,7,300,0.15,1785
+1841,15-05-2023,C182,Customer_148,East,Tablet,electronics,6,300,0,1800
+1842,19-02-2023,C118,Customer_96,East,mobile_phone,electronics,8,400,0.1,2880
+1843,06-12-2023,C003,Customer_68,East,Headphones,electronics,8,50,0.15,340
+1845,14-05-2023,C050,Customer_17,East,Laptop,electronics,1,700,0.15,595
+1846,13-12-2023,C012,Customer_12,South,Tablet,electronics,1,300,0,300
+1848,02-09-2023,C054,Customer_145,North,Bookshelf,Furniture,3,150,0.05,427.5
+1849,19-04-2023,C133,Customer_138,South,Office Chair,Furniture,10,120,0.15,1020
+1850,09-11-2023,C057,Customer_118,South,Notebook,Stationery,8,5,0,40
+1852,21-01-2023,C112,Customer_22,South,Pen Set,Stationery,1,2,0,2
+1853,31-03-2023,C047,Customer_120,North,Tablet,electronics,2,300,0.1,540
+1854,23-10-2023,C151,Customer_50,East,Printer,electronics,2,200,0.1,360
+1855,22-04-2023,C085,Customer_14,West,Desk Lamp,Furniture,3,35,0.05,99.75
+1856,28-10-2023,C142,Customer_192,East,Printer,electronics,6,200,0,1200
+1857,18-03-2023,C066,Customer_175,North,Bookshelf,Furniture,1,150,0.15,127.5
+1858,26-06-2023,C075,Customer_29,East,Printer,electronics,2,200,0.1,360
+1859,09-12-2023,C179,Customer_164,East,Laptop,electronics,1,700,0,700
+1860,28-05-2023,C103,Customer_180,North,Printer,electronics,5,200,0.1,900
+1862,03-09-2023,C192,Customer_7,North,Office Chair,Furniture,8,120,0.15,816
+1863,27-04-2023,C038,Customer_29,North,Tablet,electronics,10,300,0,3000
+1864,02-04-2023,C050,Customer_139,West,Printer,electronics,1,200,0,200
+1866,25-01-2023,C082,Customer_134,South,Office Chair,Furniture,5,120,0.1,540
+1867,27-02-2023,C030,Customer_111,East,Office Chair,Furniture,10,120,0.05,1140
+1868,24-10-2023,C079,Customer_79,East,Printer,electronics,1,200,0.15,170
+1869,14-05-2023,C091,Customer_160,West,Office Chair,Furniture,3,120,0,360
+1870,27-11-2023,C179,Customer_179,West,Desk Lamp,Furniture,7,35,0.1,220.5
+1871,06-09-2023,C191,Customer_58,West,Printer,electronics,10,200,0,2000
+1872,07-02-2023,C052,Customer_26,North,Laptop,electronics,1,700,0,700
+1873,16-03-2023,C166,Customer_174,West,Bookshelf,Furniture,7,150,0,1050
+1874,22-05-2023,C079,Customer_29,West,Headphones,electronics,5,50,0.1,225
+1875,18-11-2023,C030,Customer_4,East,Notebook,Stationery,1,5,0.05,4.75
+1876,17-06-2023,C106,Customer_99,West,Pen Set,Stationery,1,2,0.05,1.9
+1879,13-08-2023,C133,Customer_15,East,Tablet,electronics,3,300,0.1,810
+1880,01-06-2023,C029,Customer_119,West,Tablet,electronics,5,300,0,1500
+1881,19-01-2023,C132,Customer_29,West,Pen Set,Stationery,10,2,0.05,19
+1883,29-08-2023,C184,Customer_75,West,Office Chair,Furniture,6,120,0.1,648
+1885,25-08-2023,C074,Customer_32,West,Pen Set,Stationery,8,2,0.15,13.6
+1886,04-02-2023,C017,Customer_130,South,Headphones,electronics,8,50,0.15,340
+1887,09-07-2023,C084,Customer_175,East,Office Chair,Furniture,1,120,0.05,114
+1888,01-01-2023,C069,Customer_84,South,Laptop,electronics,9,700,0.1,5670
+1890,06-05-2023,C006,Customer_27,North,Desk Lamp,Furniture,9,35,0,315
+1891,11-12-2023,C053,Customer_195,West,Notebook,Stationery,3,5,0,15
+1892,14-08-2023,C194,Customer_81,East,Tablet,electronics,3,300,0.05,855
+1893,09-08-2023,C126,Customer_126,South,mobile_phone,electronics,6,400,0,2400
+1894,30-07-2023,C043,Customer_184,West,Laptop,electronics,9,700,0,6300
+1895,25-01-2023,C115,Customer_92,North,Tablet,electronics,7,300,0.05,1995
+1896,16-01-2023,C111,Customer_21,East,Printer,electronics,3,200,0,600
+1897,01-07-2023,C151,Customer_47,East,mobile_phone,electronics,3,400,0.15,1020
+1898,25-11-2023,C183,Customer_101,East,Tablet,electronics,2,300,0,600
+1899,09-05-2023,C080,Customer_187,West,Headphones,electronics,9,50,0,450
+1900,11-02-2023,C095,Customer_84,South,Desk Lamp,Furniture,3,35,0.05,99.75
+1901,02-12-2023,C118,Customer_6,South,Tablet,electronics,5,300,0.1,1350
+1902,24-08-2023,C144,Customer_147,East,Notebook,Stationery,9,5,0.05,42.75
+1903,26-12-2023,C008,Customer_185,North,Bookshelf,Furniture,8,150,0.05,1140
+1904,03-02-2023,C132,Customer_197,North,Headphones,electronics,2,50,0.1,90
+1905,11-12-2023,C104,Customer_131,South,Laptop,electronics,3,700,0.15,1785
+1906,14-02-2023,C132,Customer_1,North,Laptop,electronics,2,700,0,1400
+1907,14-05-2023,C184,Customer_58,South,Laptop,electronics,8,700,0.1,5040
+1908,21-01-2023,C025,Customer_124,East,Laptop,electronics,6,700,0.05,3990
+1909,02-05-2023,C195,Customer_166,South,Bookshelf,Furniture,6,150,0,900
+1911,18-12-2023,C195,Customer_162,East,Office Chair,Furniture,8,120,0,960
+1912,27-12-2023,C155,Customer_189,North,Tablet,electronics,4,300,0,1200
+1913,17-02-2023,C093,Customer_163,South,Printer,electronics,4,200,0.1,720
+1914,08-02-2023,C160,Customer_64,South,Desk Lamp,Furniture,9,35,0,315
+1915,14-10-2023,C178,Customer_25,East,mobile_phone,electronics,1,400,0.15,340
+1916,10-01-2023,C061,Customer_24,North,Office Chair,Furniture,2,120,0.1,216
+1917,30-01-2023,C122,Customer_12,South,Office Chair,Furniture,2,120,0.15,204
+1918,01-09-2023,C051,Customer_18,East,Tablet,electronics,6,300,0.05,1710
+1919,01-10-2023,C147,Customer_15,South,Office Chair,Furniture,4,120,0,480
+1920,29-03-2023,C021,Customer_27,West,Pen Set,Stationery,10,2,0.05,19
+1921,01-09-2023,C005,Customer_72,East,Pen Set,Stationery,3,2,0.05,5.7
+1922,25-11-2023,C092,Customer_60,North,Printer,electronics,3,200,0,600
+1923,15-01-2023,C170,Customer_174,North,mobile_phone,electronics,3,400,0.1,1080
+1924,04-01-2023,C061,Customer_145,North,Notebook,Stationery,6,5,0,30
+1925,10-07-2023,C022,Customer_93,North,Bookshelf,Furniture,8,150,0.05,1140
+1926,17-06-2023,C149,Customer_53,South,Tablet,electronics,7,300,0.05,1995
+1927,09-01-2023,C070,Customer_8,South,Bookshelf,Furniture,4,150,0.1,540
+1928,19-04-2023,C001,Customer_79,North,Notebook,Stationery,4,5,0,20
+1929,17-05-2023,C133,Customer_27,North,Tablet,electronics,10,300,0.05,2850
+1930,03-06-2023,C012,Customer_174,North,Tablet,electronics,2,300,0.15,510
+1931,28-07-2023,C090,Customer_50,South,mobile_phone,electronics,1,400,0.05,380
+1932,29-09-2023,C046,Customer_199,North,Bookshelf,Furniture,9,150,0.05,1282.5
+1933,23-05-2023,C034,Customer_131,North,Pen Set,Stationery,2,2,0.1,3.6
+1934,09-04-2023,C177,Customer_93,West,Laptop,electronics,8,700,0.15,4760
+1936,10-03-2023,C045,Customer_172,North,Desk Lamp,Furniture,4,35,0,140
+1937,04-09-2023,C155,Customer_181,East,Desk Lamp,Furniture,8,35,0.15,238
+1938,18-09-2023,C073,Customer_24,North,Tablet,electronics,9,300,0,2700
+1939,03-10-2023,C026,Customer_60,West,Laptop,electronics,10,700,0,7000
+1940,20-03-2023,C047,Customer_122,East,Headphones,electronics,10,50,0.05,475
+1941,26-05-2023,C121,Customer_131,East,Notebook,Stationery,5,5,0.05,23.75
+1942,21-04-2023,C056,Customer_148,North,Printer,electronics,7,200,0,1400
+1943,15-09-2023,C094,Customer_46,West,Laptop,electronics,10,700,0.1,6300
+1944,03-04-2023,C107,Customer_15,West,Printer,electronics,4,200,0.15,680
+1945,13-01-2023,C063,Customer_153,East,Bookshelf,Furniture,1,150,0.15,127.5
+1946,17-09-2023,C048,Customer_199,North,Bookshelf,Furniture,3,150,0.1,405
+1947,19-04-2023,C061,Customer_17,South,Printer,electronics,5,200,0.1,900
+1948,26-11-2023,C081,Customer_126,South,Notebook,Stationery,3,5,0.1,13.5
+1949,08-07-2023,C026,Customer_84,West,Laptop,electronics,7,700,0,4900
+1950,05-04-2023,C036,Customer_9,South,Headphones,electronics,9,50,0.1,405
+1951,15-04-2023,C001,Customer_166,West,Tablet,electronics,6,300,0.1,1620
+1954,10-07-2023,C099,Customer_63,South,Desk Lamp,Furniture,7,35,0,245
+1955,13-09-2023,C180,Customer_117,West,Notebook,Stationery,3,5,0.1,13.5
+1956,09-01-2023,C047,Customer_130,East,mobile_phone,electronics,5,400,0.1,1800
+1957,27-04-2023,C127,Customer_88,North,Headphones,electronics,10,50,0.15,425
+1958,24-09-2023,C056,Customer_72,North,Office Chair,Furniture,4,120,0.15,408
+1959,09-04-2023,C014,Customer_139,West,Tablet,electronics,10,300,0.1,2700
+1960,25-10-2023,C028,Customer_64,North,Bookshelf,Furniture,5,150,0.15,637.5
+1961,13-06-2023,C078,Customer_72,South,Tablet,electronics,5,300,0.05,1425
+1962,21-05-2023,C130,Customer_21,South,mobile_phone,electronics,6,400,0.15,2040
+1963,25-09-2023,C109,Customer_18,North,Tablet,electronics,10,300,0.15,2550
+1964,06-02-2023,C154,Customer_64,South,Office Chair,Furniture,10,120,0.15,1020
+1965,15-03-2023,C014,Customer_82,North,mobile_phone,electronics,6,400,0.15,2040
+1967,04-11-2023,C056,Customer_95,North,Laptop,electronics,8,700,0,5600
+1968,18-07-2023,C115,Customer_166,West,Desk Lamp,Furniture,9,35,0,315
+1969,10-05-2023,C007,Customer_32,North,mobile_phone,electronics,8,400,0.1,2880
+1970,03-09-2023,C003,Customer_11,West,Pen Set,Stationery,2,2,0.1,3.6
+1971,08-11-2023,C111,Customer_45,North,Office Chair,Furniture,10,120,0.05,1140
+1972,01-03-2023,C151,Customer_33,North,mobile_phone,electronics,1,400,0,400
+1973,06-10-2023,C107,Customer_102,North,mobile_phone,electronics,10,400,0.1,3600
+1974,13-04-2023,C018,Customer_169,South,Pen Set,Stationery,2,2,0.15,3.4
+1975,23-10-2023,C038,Customer_136,West,Bookshelf,Furniture,2,150,0.15,255
+1976,16-11-2023,C115,Customer_11,West,mobile_phone,electronics,3,400,0,1200
+1977,07-12-2023,C015,Customer_179,North,Desk Lamp,Furniture,10,35,0.05,332.5
+1978,31-05-2023,C192,Customer_88,North,Tablet,electronics,7,300,0.05,1995
+1979,06-06-2023,C119,Customer_41,South,Bookshelf,Furniture,2,150,0.15,255
+1980,25-07-2023,C028,Customer_145,South,Desk Lamp,Furniture,1,35,0.05,33.25
+1981,28-06-2023,C039,Customer_76,South,Bookshelf,Furniture,6,150,0,900
+1982,16-07-2023,C185,Customer_121,West,Desk Lamp,Furniture,9,35,0.15,267.75
+1983,11-08-2023,C017,Customer_46,West,Office Chair,Furniture,3,120,0.1,324
+1984,30-03-2023,C086,Customer_160,West,Desk Lamp,Furniture,6,35,0.1,189
+1985,14-10-2023,C126,Customer_80,North,Printer,electronics,3,200,0.05,570
+1986,03-10-2023,C044,Customer_54,West,Desk Lamp,Furniture,1,35,0.15,29.75
+1987,24-08-2023,C025,Customer_86,East,Laptop,electronics,5,700,0.15,2975
+1988,02-07-2023,C145,Customer_92,East,Laptop,electronics,10,700,0.1,6300
+1989,28-07-2023,C013,Customer_148,South,Notebook,Stationery,4,5,0,20
+1991,02-06-2023,C068,Customer_168,East,Printer,electronics,6,200,0.15,1020
+1993,02-05-2023,C067,Customer_97,West,Printer,electronics,7,200,0.15,1190
+1994,25-12-2023,C109,Customer_2,North,Tablet,electronics,5,300,0,1500
+1995,08-08-2023,C146,Customer_33,East,Notebook,Stationery,4,5,0.05,19
+1996,16-04-2023,C111,Customer_158,North,Notebook,Stationery,7,5,0.15,29.75
+1997,11-03-2023,C111,Customer_161,West,Office Chair,Furniture,7,120,0.15,714
+1998,14-07-2023,C034,Customer_77,East,Laptop,electronics,6,700,0,4200
+1999,05-07-2023,C111,Customer_116,West,Desk Lamp,Furniture,8,35,0.05,266
+2000,09-04-2023,C008,Customer_154,North,Desk Lamp,Furniture,4,35,0.1,126
