@@ -1,0 +1,140 @@
+psql -h localhost -U postgres -p 5432 -d sales
+
+CREATE TABLE sales_data (
+    OrderID        INT PRIMARY KEY,         -- unique order identifier
+    OrderDate      DATE ,           -- date of the order
+    CustomerID     TEXT,            -- customer identifier
+    CustomerName   TEXT,           -- customer name
+    Region         TEXT,           -- region of sale
+    Product        TEXT,           -- product name
+    Category       TEXT,           -- product category
+    Quantity       INT,            -- number of units sold
+    UnitPrice      NUMERIC(10,2) ,  -- price per unit
+    Discount       NUMERIC(5,2) ,  -- discount percentage/amount
+    Revenue        NUMERIC(12,2)    -- final revenue
+);
+
+copy sales_data from 'C:\Users\harsh\OneDrive\Desktop\sales_Analysis\raw_data_cleaned.csv' delimiter ',' csv header;
+
+Select * from sales_data;
+
+1. Find the total revenue generated across all regions.
+sales=# select region, sum(revenue) as total_revenue from sales_data group by region order by total_revenue desc;
+ region  | total_revenue
+---------+---------------
+ South   |     282067.00
+ West    |     238624.20
+ North   |     232879.10
+ East    |     213931.95
+ Unknown |      64204.80
+(5 rows)
+
+
+
+2. Show total revenue by category (e.g., Electronics, Furniture)
+sales=# select category , sum(revenue) as total_revenue from sales_data group by category order by total_revenue desc;
+  category   | total_revenue
+-------------+---------------
+ electronics |     873740.00
+ Furniture   |     154706.50
+ Stationery  |       3260.55
+(3 rows)
+
+
+3.Find which region generated the highest revenue.
+sales=# select region,sum(revenue) as Highest_revenue from sales_data group by region order by Highest_revenue desc limit 1;
+ region | highest_revenue
+--------+-----------------
+ South  |       282067.00
+(1 row)
+
+4. List the top 10 products by total revenue.
+sales=# select product, sum(revenue) as Total_revenue from sales_data group by product order by Total_revenue desc limit 10;
+   product    | total_revenue
+--------------+---------------
+ Laptop       |     355775.00
+ Tablet       |     193065.00
+ mobile_phone |     183560.00
+ Printer      |     114690.00
+ Bookshelf    |      78052.50
+ Office Chair |      60540.00
+ Headphones   |      26650.00
+ Desk Lamp    |      16114.00
+ Notebook     |       2362.75
+ Pen Set      |        897.80
+(10 rows)
+
+5.Customer Analysis
+
+Find customers who purchased more than 5 times.
+
+sales=# select customername, count(customerid) from sales_data group by customername having count(customerid)>10 and customername<>'Unknown';
+ customername | count
+--------------+-------
+ Customer_179 |    12
+ Customer_29  |    11
+(2 rows)
+
+6. Find the top 3 customers who generated the highest revenue.
+
+sales=# select customername , sum(revenue) as total_revenue from sales_data where customername<>'Unknown' group by customername order by total_revenue desc limit 3;
+ customername | total_revenue
+--------------+---------------
+ Customer_39  |      19128.75
+ Customer_14  |      16795.25
+ Customer_17  |      16697.50
+(3 rows)
+
+
+OR 
+
+
+sales=# with customer_totals as(
+sales(#  select customername,sum(revenue) as total_revenue
+sales(# from sales_data
+sales(# where customername<>'Unknown'
+sales(# group by customername
+sales(# )
+sales-# select customername,total_revenue
+sales-# from customer_totals
+sales-# order by total_revenue desc
+sales-# limit 3;
+ customername | total_revenue
+--------------+---------------
+ Customer_39  |      19128.75
+ Customer_14  |      16795.25
+ Customer_17  |      16697.50
+(3 rows)
+
+
+7.Monthly Trends
+
+Find monthly total revenue trends (group by OrderDate → month).
+sales=# select
+sales-# to_char(orderdate,'month') as month,
+sales-# sum(revenue) as total_revenue
+sales-# from sales_data
+sales-# group by month
+sales-# order by total_revenue
+sales-# desc
+sales-# limit 3;
+   month   | total_revenue
+-----------+---------------
+ september |     110915.70
+ may       |     105504.90
+ january   |      96253.90
+
+
+8.For each region, find the top-selling category.
+
+sales=# select region, category from sales_data where region<>'Unknown' group by region,category limit 4;
+ region |  category
+--------+-------------
+ North  | Stationery
+ East   | electronics
+ South  | Furniture
+ West   | Furniture
+(4 rows)
+
+
+
