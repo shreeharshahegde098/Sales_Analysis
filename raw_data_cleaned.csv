@@ -1,5 +1,5 @@
 OrderID,OrderDate,CustomerID,"Customer
-Name",Region,Product,Category,Quantity,UnitPrice,Discount,Revenue 
+Name",Region,Product,Category,Quantity,UnitPrice,Discount,Revenue
 1001,16-09-2023,C103,Customer_168,South,Tablet,electronics,10,300,0.05,2850
 1002,03-09-2023,C180,Customer_113,East,Printer,electronics,10,200,0,2000
 1003,16-05-2023,C093,Customer_83,South,Laptop,electronics,4,700,0.15,2380
