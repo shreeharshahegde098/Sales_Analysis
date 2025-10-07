@@ -25,14 +25,14 @@ Used **Python (Pandas)** for cleaning and preprocessing:
 ### 3. 📘 Data Enhancement (Excel)
 Performed further data enhancement in **Excel**:
 - Added a **new calculated column**:  
-  `Revenue = Quantity × Unit_Price` (if not present).
+  `Revenue = Quantity × Unit_Price` .
 - Applied **Conditional Formatting** to highlight:
-  - Revenue > 3500 (colored green).
+  - Revenue > 3500 (colored yellow).
 - Created **Pivot Tables** and **Pie Charts** on new sheets:
   - **Revenue by Category**
   - **Revenue by Region**
 
-Saved the final version as **`sales_data_cleaned.csv`**.
+Saved the final version as **`raw_data_cleaned.csv`**.
 
 ---
 
