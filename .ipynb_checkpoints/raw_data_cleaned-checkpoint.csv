@@ -1,4 +1,4 @@
-OrderID,OrderDate,CustomerID,CustomerName,Region,Product,Category,Quantity,UnitPrice,Discount,Revenue
+ORDER_ID,ORDER_DATE,CUSTOMER_ID,CUSTOMER_NAME,REGION,PRODUCT,CATEGORY,QUANTITY,UNIT_PRICE,DISCOUNT,REVENUE
 1001,16-09-2023,C103, Customer_168 ,South,Tablet,electronics,10,300,0.05,2850
 1002,03-09-2023,C180, Customer_113 ,East,Printer,electronics,10,200,0,2000
 1003,16-05-2023,C093, Customer_83 ,South,Laptop,electronics,4,700,0.15,2380
@@ -895,8 +895,7 @@ OrderID,OrderDate,CustomerID,CustomerName,Region,Product,Category,Quantity,UnitP
 2001,10-04-2023,C009,Customer_133,North,Desk Lamp,Furniture,5,10,0.5,300
 2002,12-04-2023,C007,Customer_139,South,Laptop,electronics,1,1,0.15,2000
 2003,13-04-2024,C777,Customer_777,South,Laptop,electronics,1,1,0.1,2500
-2004,15-04-2024,C778,Customer_778,North,Printer,electronics,1,1,0.2,1500
+2004,15-04-2024,C778,Customer_778,north,Printer,electronics,1,1,0.2,1500
 2005,16-04-2024,C779,Customer_779,North,Printer,electronics,1,1,0.3,1000
 2006,17-04-2024,C776,Customer_776,North,Printer,electronics,1,1,0.3,1000
 2007,18-04-2024,C881,Customer_881,North,Printer,electronics,1,1,0.3,1000
-2008,18-04-2024,C882,Customer_882,North,Printer,electronics,1,1,0.3,1000
